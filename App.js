@@ -10,7 +10,6 @@ import AuthContext from "./app/auth/context";
 export default function App() {
   const [user, setUser] = useState();
 
-  //just adding comment for rollback
   return (
     <AuthContext.Provider value={{ user, setUser }}>
       <OfflineNotice />
